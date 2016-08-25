@@ -47,7 +47,6 @@ RUN yum install -y \
 	xfsprogs \
 	libzfs-dev \
 	tar \
-	--no-install-recommends \
 	&& ln -snf /usr/bin/clang-3.8 /usr/local/bin/clang \
 	&& ln -snf /usr/bin/clang++-3.8 /usr/local/bin/clang++
 
