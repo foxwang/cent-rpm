@@ -46,9 +46,7 @@ RUN yum install -y \
 	zfs \
 	xfsprogs \
 	libzfs-dev \
-	tar \
-	&& ln -snf /usr/bin/clang-3.8 /usr/local/bin/clang \
-	&& ln -snf /usr/bin/clang++-3.8 /usr/local/bin/clang++
+	tar
 
 ENV GO_VERSION 1.5.3
 RUN curl -fSL "https://storage.googleapis.com/golang/go${GO_VERSION}.linux-amd64.tar.gz" | tar xzC /usr/local
