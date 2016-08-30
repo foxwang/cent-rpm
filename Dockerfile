@@ -46,6 +46,10 @@ RUN yum install -y \
 	zfs \
 	xfsprogs \
 	libzfs-dev \
+	libseccomp \
+	audit
+	audit-libs-devel \
+	audit-libs-static \
 	tar
 
 ENV GO_VERSION 1.5.3
