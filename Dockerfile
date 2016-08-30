@@ -47,7 +47,7 @@ RUN yum install -y \
 	xfsprogs \
 	libzfs-dev \
 	libseccomp \
-	audit
+	audit \
 	audit-libs-devel \
 	audit-libs-static \
 	tar
